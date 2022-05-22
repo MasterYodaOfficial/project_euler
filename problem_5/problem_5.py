@@ -1,4 +1,4 @@
-def check_divs(max_num, max_div=10):
+def check_divs(max_num: int, max_div=10) -> bool:
     """Проверка числа на все делители"""
     for num in range(max_div, 1, -1):
         if max_num % num != 0:
